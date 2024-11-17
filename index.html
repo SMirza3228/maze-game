@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="js-img.png">
+    <title>Maze-game</title>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header__container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <a href="#"><img src="js-img.png" alt="" width="30px"></a>
+                    <a href="#" class="logo">Maz<abbr class="color">E</abbr></a>
+                </div>
+
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li><a href="#" class="list__link">Home</a></li>
+                        <li><a href="#" class="list__link">Game</a></li>
+                        <li><a href="#" class="list__link">Portfolio</a></li>
+                        <li><a href="#" class="list__link">FAQ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="game">
+            <div class="container">
+                <canvas id="myCanvas" width="600px" height="550px"></canvas>
+                <div id="wall"></div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
